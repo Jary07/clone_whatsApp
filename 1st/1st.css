@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-style: gray;
+  
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all{
+  background-repeat: none; 
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin: auto;
+    width: 720px;
+    height:1280px;
+    background-color: rgb(233, 243, 233);
+    border-color: 2px gray;
+    border-radius: 20px;
+}
+.image-box{
+    margin: auto;
+    text-align: center;
+    top: -20px;
+}
+.image{
+    border-radius: 50% ;  
+    margin: auto;  
+    
+}
+
+h3{
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    margin: auto;
+    justify-content: center;
+    width:600px;
+    font-size: 30px;
+    text-align: center;
+}
+a{
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.btn-a{
+    margin: 140px 110px;
+    width:500px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+.drop-down{
+  margin-bottom: 200px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin:auto;
+  width:250px;
+}
+
+.lists{
+  position:absolute;
+  font-weight: 600;
+ 
+}
+.btn-main{
+  width: 250px;
+  height: 60px;
+  background-color: #BCBDC9;
+  border-radius: 30px;
+  border: none;
+  margin-top: 45px;
+  font-size: 35px;
+  color: darkgreen;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.btn {
+  background: none;
+  border: none;
+  font-size: 35px;
+  color: darkgreen;
+}
+.arrow{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-top: 5px solid darkgreen;
+  border-right: 5px solid darkgreen;
+  box-sizing: border-box;
+  transform: rotate(135deg);
+}
+.arrow-rotation{
+  transform: rotate(-135deg)
+}
+
+.btn:hover {
+  background-color: darkgray;
+}
+
+.list-b{
+   overflow-y: scroll;
+  width: 250px;
+  gap: 20vh;
+  height: 16vh;
+  border-radius: 10px;
+  background-color: #BCBDC9;
+  transition:  0.5s;
+}
+
+.list-b li{
+   
+   text-decoration: none;
+   list-style: none;
+   padding: 8px 0;
+}
+.list-b li a{
+  color: darkgreen;
+  font-size:35px;
+  text-decoration: none;
+}
+.list-b li:hover {
+  border-radius: 10px;
+  background-color: lightgray;
+  margin: 10px 0;
+  color: white;
+  list-style: none;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd page</title>
+    <link rel="stylesheet" href="2nd.css">
+</head>
+<body>
+ 
+    <div class="all">
+        <div class="td">
+          <br><br>
+        <h3>Enter your number</h3>
+        <div class="threedot">
+            <li></li>
+            <li></li>
+            <li></li>
+        </div>
+        </div>
+        <br><br>
+            <p>WhatsApp will need to verify your account.<a href="">What's my number</a></p>
+        
+        <form class="select">
+            <select class="select-s">
+            <option>Country</option>
+            <option value="+977">Nepal</option>
+            <option value="+91">India</option>
+            <option value="+90">China</option>
+            <option value="+111">America</option>
+            <option value="+222">Japan</option>
+            <option value="+333">Korea</option>
+            <option value="+444">Soudi Arebia</option>
+        </select>
+        </form>
+        <form  onsubmit="return false">
+        <div class="input-all">
+        <div class="input">
+          
+       
+        <input placeholder="+"oninput="getValue()" value="" class="input1" type="text"> 
+        
+        <input oninput="Text" placeholder="Phone number" class="input2" type="number" maxlength="10" minlength="10" name="number" value="" id="ph">
+         </div>
+        <br>
+        <div id="invalid" hidden>Enter a valid phone number! please</div>
+        </div>
+        <p style="color: gray; font-size: 30px;">Carrier charges may apply</p>
+        
+        <div class="btn"><button onclick="idValidation()" type="submit" class="next">Next</button></div>
+    </div> 
+</form>
+    <script src="2nd.js"></script>
+</body>
+</html>
