@@ -98,7 +98,7 @@ hr{
 }
 .bottom{
     /* position: relative; */
-    overflow-y: scroll ;
+    overflow-y: auto ;
     height:1080px;
 }
 .message{
