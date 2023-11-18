@@ -224,19 +224,23 @@ hr{
 }
 .call-link{
   align-items: center;
-  width: 100%;
   padding:20px 40px;
   display: flex;
   gap: 50px;
 }
 .link-logo{
-  display: absolute;
+  display: relative;
   display: inline-flex;
-  width: 7vh;
-  height: 7vh;
+  width: 120px;
+  height: 120px;
   background-color: green;
   border-radius: 50%;
   border: none;
+}
+.link-logo span{
+  text-align: center;
+  margin: 25px;
+  font-size: 70px;
 }
 
 span h3{
@@ -268,11 +272,11 @@ h1,h2,h3,h4,h5,p{
   right: 60px;
   bottom: 80px;
 }
+.add-contact span{
+  font-size: 60px;
+}
 .btn-hover:hover{
       box-shadow: 7px 6px 2px 0px rgba(100,100,100);
-}
-.call-logo{
-  
 }
 
 
