@@ -14,7 +14,7 @@
       margin: auto;
       width: 720px;
       height:1280px;
-      background-color: rgb(233, 243, 233);
+      background-image: url("../../img/WAbg.png");
       border-radius: 20px solid;
       
   }
@@ -63,12 +63,26 @@
     bottom: -90px;
 }
 .keys span{
+    font-weight: 900;
     font-size: 40px;
     padding-left: 30px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(108deg)  brightness(140%);
 
 }
 
+#more-elem{
+    position: relative;
+    right: 55px;
+    top: 40px;
+    border-radius: 20px;
+    height: 550px;
+    width: 315px;
+    background-color: white;
+}
+#more-elem p{
+    padding: 20px;
+    font-size: 30px;
+}
 .mess-input{
     position: relative;
     height:95px;
@@ -80,6 +94,9 @@
     top:980px;
     box-sizing:content-box;
     left: 10px;
+}
+.mess-input span{
+    pointer-events: none;
 }
 #emoji{
     font-size: 60px;
@@ -125,6 +142,7 @@
     left: 10px;
 }
 #mic{
+    pointer-events: none;
     position: absolute;
     font-size: 50px;
     color: white;
